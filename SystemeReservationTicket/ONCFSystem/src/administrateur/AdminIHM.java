@@ -25,14 +25,14 @@ public class AdminIHM extends JFrame {
         btnGestionReduction = new JButton("Gestion Reduction");
         btnGenererRapport = new JButton("Generer Rapport");
 
-       /* btnGestionTrajet.addActionListener(new ActionListener() {
+       btnGestionTrajet.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 displayPanel(new GestionTrajet());
             }
         });
 
-        btnGestionReduction.addActionListener(new ActionListener() {
+       /*  btnGestionReduction.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 displayPanel(new GestionReduction());
@@ -44,7 +44,7 @@ public class AdminIHM extends JFrame {
                 displayPanel(genererRapportPanel); // Display GenererRapport panel
             }
         });
-        genererRapportPanel = new GenererRapport();
+        genererRapportPanel = new GenererRapport();*/
         // Panel principal avec un BorderLayout*/
         mainPanel = new JPanel(new BorderLayout());
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20)); // Dimensions initiales plus petites
