@@ -1,0 +1,7 @@
+package administrateur;
+
+import javax.swing.JFrame;
+
+public class AdminIHM extends JFrame {
+
+}
